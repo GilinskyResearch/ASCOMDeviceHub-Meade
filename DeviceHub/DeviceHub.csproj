@@ -142,6 +142,9 @@
       <DependentUpon>AboutView.xaml</DependentUpon>
     </Compile>
     <Compile Include="Business Object Classes\Value Converters\AltitudeValueConverter.cs" />
+    <Compile Include="View Classes\Telescope Views\TelescopeHandboxView.xaml.cs">
+      <DependentUpon>TelescopeHandboxView.xaml</DependentUpon>
+    </Compile>
     <Compile Include="ViewModel Classes\AboutViewModel.cs" />
     <Compile Include="Business Object Classes\PropertyExceptions.cs" />
     <Compile Include="ViewModel Classes\DomeAzimuthOffsetViewModel.cs" />
@@ -390,6 +393,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="View Classes\RotarySliderView.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View Classes\Telescope Views\TelescopeHandboxView.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
