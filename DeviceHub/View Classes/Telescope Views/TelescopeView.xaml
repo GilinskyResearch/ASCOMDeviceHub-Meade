@@ -108,7 +108,7 @@
                 <ContentControl Content="{Binding ParametersVm}" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="0" Height="Auto" />
             </TabItem>
 			<TabItem Header="Handbox" Template="{DynamicResource DeviceHubTabItemTemplate}" HeaderTemplate="{DynamicResource headerText}">
-                <ContentControl Content="{Binding ParametersVm}" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="0" Height="Auto" />
+                <ContentControl Content="{Binding HandboxVm}" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="0" Height="Auto" />
             </TabItem>
         </TabControl>
     </Grid>
