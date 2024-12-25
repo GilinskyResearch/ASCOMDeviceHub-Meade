@@ -48,6 +48,7 @@ namespace ASCOM.DeviceHub
 		public TelescopeTrackingRatesViewModel TrackingRatesVm { get; private set; }
 		public TelescopeDirectSlewViewModel DirectSlewVm { get; private set; }
 		public TelescopeMotionViewModel MotionVm { get; private set; }
+		public TelescopeHandboxViewModel HandboxVm { get; private set; }
 
 		#endregion Public Properties
 
@@ -71,6 +72,11 @@ namespace ASCOM.DeviceHub
 				DirectSlewVm.SetActive( true );
 			}
 			else if ( functionName == "Capabilities" )
+			{
+				MotionVm.SetActive( false );
+				DirectSlewVm.SetActive( false );
+			}
+			else if ( functionName == "Handbox" )
 			{
 				MotionVm.SetActive( false );
 				DirectSlewVm.SetActive( false );
