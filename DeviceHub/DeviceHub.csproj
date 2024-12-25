@@ -110,6 +110,7 @@
     <Compile Include="Business Object Classes\DisplayAttribute.cs" />
     <Compile Include="Business Object Classes\Message Types\DomeSlavedChangedMessage.cs" />
     <Compile Include="Business Object Classes\Message Types\TelescopeHandboxUpdatedMessage.cs" />
+    <Compile Include="Business Object Classes\Telescope Classes\TelescopeHandbox.cs" />
     <Compile Include="Business Object Classes\Value Converters\BooleanOnOffConverter.cs" />
     <Compile Include="Business Object Classes\Telescope Classes\TelescopeRates.cs" />
     <Compile Include="Business Object Classes\Value Converters\BooleanToConnectStringConverter.cs" />
