@@ -23,6 +23,9 @@
         <DataTemplate DataType="{x:Type local:TelescopeMotionViewModel}">
             <local:TelescopeMotionView />
         </DataTemplate>
+        <DataTemplate DataType="{x:Type local:TelescopeHandboxViewModel}">
+            <local:TelescopeHandboxView />
+        </DataTemplate>
 
         <local:BooleanVisibilityConverter x:Key="BoolVisConverter" />
         <local:DeviceConnectedValueConverter x:Key="DeviceConnectedValueConverter" />
@@ -102,6 +105,9 @@
                 <ContentControl Content="{Binding CapabilitiesVm}"  Style="{StaticResource Content}" />
             </TabItem>
 			<TabItem Header="Static Properties" Template="{DynamicResource DeviceHubTabItemTemplate}" HeaderTemplate="{DynamicResource headerText}">
+                <ContentControl Content="{Binding ParametersVm}" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="0" Height="Auto" />
+            </TabItem>
+			<TabItem Header="Handbox" Template="{DynamicResource DeviceHubTabItemTemplate}" HeaderTemplate="{DynamicResource headerText}">
                 <ContentControl Content="{Binding ParametersVm}" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="0" Height="Auto" />
             </TabItem>
         </TabControl>
