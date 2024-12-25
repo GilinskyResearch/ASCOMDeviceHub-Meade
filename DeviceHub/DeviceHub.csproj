@@ -206,6 +206,7 @@
     <Compile Include="ViewModel Classes\SimpleValueEntryViewModel.cs" />
     <Compile Include="ViewModel Classes\ScopeDomeOffsetViewModel.cs" />
     <Compile Include="ViewModel Classes\RightAscensionValuesEntryViewModel.cs" />
+    <Compile Include="ViewModel Classes\Telescope ViewModels\TelescopeHandboxViewModel.cs" />
     <Compile Include="ViewModel Classes\ValuesEntryViewModelBase.cs" />
     <Compile Include="ViewModel Classes\DeclinationValuesEntryViewModel.cs" />
     <Compile Include="Business Object Classes\Value Converters\IntegerForegroundConverter.cs" />
