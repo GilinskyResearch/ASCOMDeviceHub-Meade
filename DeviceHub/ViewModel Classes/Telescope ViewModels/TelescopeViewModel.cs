@@ -26,6 +26,7 @@ namespace ASCOM.DeviceHub
 
 			ParametersVm = new TelescopeParametersViewModel();
 			CapabilitiesVm = new TelescopeCapabilitiesViewModel();
+			HandboxVm = new TelescopeHandboxViewModel();
 			TrackingRatesVm = new TelescopeTrackingRatesViewModel( telescopeManager );
 			DirectSlewVm = new TelescopeDirectSlewViewModel( telescopeManager );
 			MotionVm = new TelescopeMotionViewModel( telescopeManager );

@@ -46,8 +46,15 @@
     </UserControl.Resources>
 
     <Grid>
-        <ScrollViewer VerticalScrollBarVisibility="Auto">
-            <Label Content="" Height="44" Width="140"/>
-        </ScrollViewer>
+        <Button Content="0" Height="40" Width="40" AutomationProperties.AcceleratorKey="0" Margin="0,300,0,0"/>
+        <Button Content="7" Height="40" Width="40" AutomationProperties.AcceleratorKey="7" Margin="-90,200,0,0"/>
+        <Button Content="8" Height="40" Width="40" AutomationProperties.AcceleratorKey="8" Margin="-0,200,0,0"/>
+        <Button Content="9" Height="40" Width="40" AutomationProperties.AcceleratorKey="9" Margin="90,200,0,0"/>
+        <Button Content="4" Height="40" Width="40" AutomationProperties.AcceleratorKey="4" Margin="-90,100,0,0"/>
+        <Button Content="5" Height="40" Width="40" AutomationProperties.AcceleratorKey="6" Margin="-0,100,0,0"/>
+        <Button Content="6" Height="40" Width="40" AutomationProperties.AcceleratorKey="6" Margin="90,100,0,0"/>
+        <Button Content="1" Height="40" Width="40" AutomationProperties.AcceleratorKey="1" Margin="-90,0,0,0" AutomationProperties.Name="HandboxNumberButton_1"/>
+        <Button Content="2" Height="40" Width="40" AutomationProperties.AcceleratorKey="2" Margin="-0,0,0,0"/>
+        <Button Content="3" Height="40" Width="40" AutomationProperties.AcceleratorKey="3" Margin="90,0,0,0"/>
     </Grid>
 </UserControl>
